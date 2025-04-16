@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.dimerco.hawb.aehawb.controller.AeHawbOperation;
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest;
 import com.example.dimerco.hawb.aehawb.model.AehawbMapper;
+import com.example.dimerco.hawb.aehawb.model.BookingRequest;
 import com.example.dimerco.hawb.aehawb.model.CombinedResult;
 import com.example.dimerco.hawb.aehawb.model.ErrorNotifier;
 import com.example.dimerco.hawb.aehawb.model.FinalResult;

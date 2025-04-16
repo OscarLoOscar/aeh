@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest;
+import com.example.dimerco.hawb.aehawb.model.BookingRequest;
 import com.example.dimerco.hawb.aehawb.model.BookmarkRequest;
 import com.example.dimerco.hawb.aehawb.model.CombinedResult;
 import com.example.dimerco.hawb.aehawb.model.ErrorNotifier;

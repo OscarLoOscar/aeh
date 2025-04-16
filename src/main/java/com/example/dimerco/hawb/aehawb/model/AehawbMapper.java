@@ -4,9 +4,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
 
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest;
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest.BookingPoData;
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest.HawbDim;
+import com.example.dimerco.hawb.aehawb.model.BookingRequest.BookingPoData;
+import com.example.dimerco.hawb.aehawb.model.BookingRequest.HawbDim;
 
 @Component
 public class AehawbMapper {

@@ -1,6 +1,6 @@
 package com.example.dimerco.hawb.aehawb.service;
 
-import com.example.dimerco.hawb.aehawb.entity.BookingRequest;
+import com.example.dimerco.hawb.aehawb.model.BookingRequest;
 import com.example.dimerco.hawb.aehawb.model.CombinedResult;
 import com.example.dimerco.hawb.aehawb.response.BookmarkResponse;
 

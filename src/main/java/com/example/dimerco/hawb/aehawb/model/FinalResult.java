@@ -2,7 +2,6 @@ package com.example.dimerco.hawb.aehawb.model;
 
 import java.util.List;
 
-import com.example.dimerco.hawb.aehawb.entity.Instruction;
 import com.example.dimerco.hawb.aehawb.response.BookmarkResponse;
 
 import lombok.AllArgsConstructor;

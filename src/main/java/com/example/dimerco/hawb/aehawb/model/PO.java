@@ -1,4 +1,4 @@
-package com.example.dimerco.hawb.aehawb.entity;
+package com.example.dimerco.hawb.aehawb.model;
 
 
 import com.google.auto.value.AutoValue.Builder;

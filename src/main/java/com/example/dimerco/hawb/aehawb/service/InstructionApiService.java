@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.dimerco.hawb.aehawb.entity.Instruction;
+import com.example.dimerco.hawb.aehawb.model.Instruction;
 
 @Service
 public class InstructionApiService {
