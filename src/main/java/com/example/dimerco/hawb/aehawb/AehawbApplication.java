@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.dimerco.hawb.aehawb.model.CombinedResult;
 import com.example.dimerco.hawb.aehawb.model.InputData;
 import com.example.dimerco.hawb.aehawb.model.InvoiceData;
-import com.example.dimerco.hawb.aehawb.model.Mapper;
+import com.example.dimerco.hawb.aehawb.model.AehawbMapper;
 
 @SpringBootApplication
 public class AehawbApplication {

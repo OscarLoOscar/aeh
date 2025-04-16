@@ -3,7 +3,7 @@ package com.example.dimerco.hawb.aehawb;
 import com.example.dimerco.hawb.aehawb.model.InputData;
 import com.example.dimerco.hawb.aehawb.model.InvoiceData;
 import com.example.dimerco.hawb.aehawb.model.CombinedResult;
-import com.example.dimerco.hawb.aehawb.model.Mapper;
+import com.example.dimerco.hawb.aehawb.model.AehawbMapper;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -16,7 +16,7 @@ import java.util.List;
 @Slf4j
 public class MapperTest {
 
-  private final Mapper mapper = new Mapper();
+  private final AehawbMapper mapper = new AehawbMapper();
   private final ObjectMapper objectMapper = new ObjectMapper();
 
   @Test

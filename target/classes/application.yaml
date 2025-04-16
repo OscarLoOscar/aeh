@@ -1,0 +1,16 @@
+api:
+  hawb:
+    token_url: "https://apiportal.dimerco.com:8443/DimBotApi_Test/oauth2/token"
+    client_id: "rMhFLDBZsxdk0gSiUu7KY6DJwvMssJ4J"
+    client_secret: "itoQUlk9PM5OGen4gu6QhT71v9pYzv7i"
+    bookmark_endpoint: /bookmark/{bookmarkId}
+    domain: https://your.api.server
+    base_path: /api/hawb
+    copy_endpoint: /copyHAWB
+    data_endpoint: /GetDataById
+    
+hawb:
+  destinations:
+    JP: 123456
+    KR: 888888
+    TW: 999999

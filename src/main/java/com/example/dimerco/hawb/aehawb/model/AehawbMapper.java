@@ -9,7 +9,7 @@ import com.example.dimerco.hawb.aehawb.entity.BookingRequest.BookingPoData;
 import com.example.dimerco.hawb.aehawb.entity.BookingRequest.HawbDim;
 
 @Component
-public class Mapper {
+public class AehawbMapper {
   public BookingRequest mapInputToBookingRequest(List<InputData> inputData) {
     // Map the input data to the BookingRequest fields
     BookingRequest.BookingExtra bookingExtra = BookingRequest.BookingExtra.builder()

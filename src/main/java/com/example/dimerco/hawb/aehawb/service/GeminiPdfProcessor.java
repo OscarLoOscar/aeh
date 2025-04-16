@@ -254,7 +254,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.dimerco.hawb.aehawb.entity.BookingRequest;
 import com.example.dimerco.hawb.aehawb.model.InputData;
-import com.example.dimerco.hawb.aehawb.model.Mapper;
+import com.example.dimerco.hawb.aehawb.model.AehawbMapper;
 import com.google.cloud.aiplatform.v1.Content;
 import com.google.cloud.aiplatform.v1.FileData;
 import com.google.cloud.aiplatform.v1.GenerateContentRequest;
@@ -288,7 +288,7 @@ public class GeminiPdfProcessor {
     private static final String INVOICE_FILE_NAME = "JPN1-GS01_Invoice & PL (O-6896)";
 
     @Autowired
-    private Mapper mapper;
+    private AehawbMapper mapper;
 
     private PredictionServiceClient predictionClient;
     private Storage storage;

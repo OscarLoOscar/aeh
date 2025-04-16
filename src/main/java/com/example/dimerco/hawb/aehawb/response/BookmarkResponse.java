@@ -12,6 +12,9 @@ import lombok.Setter;
 @AllArgsConstructor
 public class BookmarkResponse {
 
+    //add 
+    private String houseId;
+    
     private int bookmarkId;
     private String stationCode;
     private String availDate;
